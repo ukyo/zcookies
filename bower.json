@@ -1,0 +1,30 @@
+{
+  "name": "zcookies",
+  "version": "0.0.1",
+  "authors": [
+    "ukyo <ukyo.web@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "compress",
+    "cookie",
+    "zlib",
+    "messagepack"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Cookies": "~0.4.0",
+    "msgpack-javascript": "*",
+    "pako": "~0.2.5"
+  },
+  "main": "zcookies.js"
+}
