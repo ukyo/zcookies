@@ -26,5 +26,6 @@
     "msgpack-javascript": "*",
     "pako": "~0.2.5"
   },
-  "main": "zcookies.js"
+  "main": "zcookies.js",
+  "homepage": "https://github.com/ukyo/zcookies"
 }
