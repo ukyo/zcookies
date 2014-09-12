@@ -1,0 +1,29 @@
+{
+  "name": "zcookies",
+  "version": "0.0.2",
+  "description": "Save objects to cookies!",
+  "main": "zcookies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukyo/zcookies.git"
+  },
+  "keywords": [
+    "comression",
+    "cookie",
+    "messagepack",
+    "zlib"
+  ],
+  "author": "Syu Kato <ukyo.web@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukyo/zcookies/issues"
+  },
+  "homepage": "https://github.com/ukyo/zcookies",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.5.1"
+  }
+}
