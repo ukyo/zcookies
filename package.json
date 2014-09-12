@@ -1,6 +1,6 @@
 {
   "name": "zcookies",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Save objects to cookies!",
   "main": "zcookies.js",
   "scripts": {

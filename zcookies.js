@@ -1,4 +1,4 @@
-/*! zcookies - 0.0.2 license: MIT https://github.com/ukyo/zcookies */
+/*! zcookies - 0.1.0 license: MIT https://github.com/ukyo/zcookies */
 (function(global) {
   "use strict";
 
