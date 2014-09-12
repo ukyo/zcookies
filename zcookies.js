@@ -8,10 +8,11 @@
     },
     set: function(k, v, options) {
       var x = Cookies.get(k);
+      var cookieSizeBeforeSave = document.cookie.length;
       var y = btoa(String.fromCharCode.apply(null, pako.deflateRaw(msgpack.pack(v), {level: 9})));
       Cookies.set(k, y, options);
-      if (x !== y && x === Cookies.get(k)) {
-        throw new Error('MiniCookies: A too large value!');
+      if (x !== y && cookieSizeBeforeSave === document.cookie.length) {
+        throw new Error('zcookies: QUOTA Error!');
       }
     }
   };
