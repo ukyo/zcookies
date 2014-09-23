@@ -1,10 +1,12 @@
-/*! zcookies - 0.1.0 license: MIT https://github.com/ukyo/zcookies */
+/*! zcookies - 0.1.1 license: MIT https://github.com/ukyo/zcookies */
 (function(global) {
   "use strict";
 
   global.zcookies = {
     get: function(k) {
-      return msgpack.unpack(pako.inflateRaw(atob(Cookies.get(k))));
+      var x = Cookies.get(k);
+      if (x === undefined) return;
+      return msgpack.unpack(pako.inflateRaw(atob(x)));
     },
     set: function(k, v, options) {
       var x = Cookies.get(k);
